@@ -31,5 +31,5 @@ Run it with
 `docker run -d -p 127.0.0.1:80:80 -v /<path_to_the_repo>/sites-enabled:/etc/nginx/sites-enabled bulgroz/nginxphp`
 
 * You probably want to run this image on a public interface (and not localhost),
-change the ip adress accordingly.
+change the ip address accordingly.
 * You can mount multiple directories by passing multiple -v arguments
